@@ -1,8 +1,8 @@
-import { task, src, dest } from "gulp";
+const { task, src, dest } = require("gulp");
 
-import tap from "gulp-tap";
-import rename from "gulp-rename";
-import posthtml from "gulp-posthtml";
+const tap = require("gulp-tap");
+const rename = require("gulp-rename");
+const posthtml = require("gulp-posthtml");
 
 task("html", () => {
   let path;
