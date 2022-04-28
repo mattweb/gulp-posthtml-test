@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-tap": "^2.0.0",
+    "posthtml-include": "^1.7.3",
+    "posthtml-sugarml": "^1.0.0-alpha3"
+  }
+}
