@@ -12,7 +12,7 @@ task("html", () => {
 
   return src("src/*.html")
     .pipe(tap((file) => (path = file.path)))
-    .pipe(posthtml(plugins))
+    .pipe(posthtml())
     .pipe(rename({ ext: ".html" }))
     .pipe(dest("dest"));
 });
